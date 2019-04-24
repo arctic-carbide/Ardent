@@ -1,704 +1,818 @@
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/SpawnPlatform1_Blueprint.uasset" 0
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Cinematics/RotatingMainSequence.uasset" 1
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/TPCMaterial.uasset" 2
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Envy.uasset" 3
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Collectables/basic_gem.uasset" 4
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Collectables/basic_gem2.uasset" 5
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/AIPawn.uasset" 6
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/Material.uasset" 7
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW1Shield_Cube.uasset" 8
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW1Shield_Cube_001.uasset" 9
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube.uasset" 10
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube_001.uasset" 11
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube_002.uasset" 12
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 13
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/HierarchyMethods.uasset" 14
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Colors/RedGlow.uasset" 15
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Decorators/BTDecorator_IsComponentActive.uasset" 16
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Decorators/IsComponentActive.uasset" 17
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Services/BTService_FindPlayerLocation.uasset" 18
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Services/BTService_UpdateComponentLocation.uasset" 19
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/ActivateComponent.uasset" 20
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/DeactivateComponent.uasset" 21
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/FacePlayer.uasset" 22
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/FindPlayer.uasset" 23
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/FindRotationToPlayer.uasset" 24
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/GuardianRotateIdle.uasset" 25
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/BB_Guardian.uasset" 26
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/BT_Guardian.uasset" 27
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/AIC_Guardian.uasset" 28
-"../../../Engine/Content/EngineMeshes/Humanoid.uasset" 29
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 30
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 31
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 32
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 33
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 34
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonRun.uasset" 35
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 36
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 37
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 38
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 39
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 40
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 41
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 42
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 43
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 44
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 45
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 46
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 47
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 48
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 49
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 50
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 51
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 52
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 53
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 54
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 55
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 56
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 57
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Character/TPCBase.uasset" 58
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/ArdentGameInstance.uasset" 59
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy.uasset" 60
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns__2__PhysicsAsset.uasset" 61
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns__2__Skeleton.uasset" 62
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns__2_.uasset" 63
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/WeaponHorns.uasset" 64
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Blade_Bevel_001.uasset" 65
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Guard_001.uasset" 66
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Hilt_Cloth_001.uasset" 67
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Hilt_Under_002.uasset" 68
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Material_001.uasset" 69
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Tang.uasset" 70
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Anger_Katana_2_PhysicsAsset.uasset" 71
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Anger_Katana_2_Skeleton.uasset" 72
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Anger_Katana_2.uasset" 73
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/WeaponSword.uasset" 74
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/Sword_And_Shield_Slash_-_1_Anim_mixamo_com.uasset" 75
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Powers.uasset" 76
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/aidie.uasset" 77
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/mousedie.uasset" 78
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPAnger.uasset" 79
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/BB_ThirdPerson_Charge.uasset" 80
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/break.uasset" 81
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPEnvy.uasset" 82
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/ForceType.uasset" 83
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPEuphoria.uasset" 84
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_BackgroundCard_01.uasset" 85
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Anger.uasset" 86
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Confidence.uasset" 87
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Euphoria.uasset" 88
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Happiness.uasset" 89
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Hyper.uasset" 90
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Void.uasset" 91
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/TraceConditions.uasset" 92
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/TracingTypes.uasset" 93
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/PauseMenu.uasset" 94
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Character/TPCHusk.uasset" 95
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Colors/White.uasset" 96
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 97
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 98
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 99
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 100
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 101
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Basic_Wall.uasset" 102
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 103
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 104
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/BP_Guardian.uasset" 105
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/Scan.uasset" 106
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/Stare.uasset" 107
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPPower.uasset" 108
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPConfidence.uasset" 109
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/CPController.uasset" 110
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Components/SuperComponent.uasset" 111
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/pumpkinHulk_diffuse.uasset" 112
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/pumpkinHulk_normal.uasset" 113
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/PumpkinHulk_Material.uasset" 114
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw_PhysicsAsset.uasset" 115
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw_Skeleton.uasset" 116
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw.uasset" 117
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/GI_Test.uasset" 118
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/NewDialogueVoice.uasset" 119
-"../../../Engine/Content/Tutorial/Audio/Zak.uasset" 120
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/NewDialogueWave.uasset" 121
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/NewSoundClass.uasset" 122
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/AgroCheck.uasset" 123
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/Functions/TraceInfo.uasset" 124
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/Functions/Something.uasset" 125
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/Macros/Utilities.uasset" 126
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_MacroVariation.uasset" 127
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 128
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 129
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 130
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/M_Rock_Sandstone.uasset" 131
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Instances/MI_Envy_2.uasset" 132
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns_PhysicsAsset.uasset" 133
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns_Skeleton.uasset" 134
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Envy_Horns.uasset" 135
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Modes/BBCustomGameMode1.uasset" 136
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Husk/Character/HuskBase.uasset" 137
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 138
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/PlayerHUD_WBP.uasset" 139
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/HUDs/PlayerHUD_BP.uasset" 140
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Modes/Level1Mode.uasset" 141
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/015_Foley_Footsteps_Asphalt_Boot_Walk_Fast_Run_Jog_Close.uasset" 142
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/Bell_Sound_Ring-SoundBible_com-181681426.uasset" 143
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/VOICE_ROBOTIC_MALE_Detected_2_stereo.uasset" 144
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/VOICE_ROBOTIC_MALE_Detected_2_stereo_Cue.uasset" 145
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/Wind_Ext_Whoosh_Whistle_Howl_Ringing.uasset" 146
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/Wind_Ext_Whoosh_Whistle_Howl_Ringing_Cue.uasset" 147
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/HUDs/GameHUD.uasset" 148
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 149
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_400x300.uasset" 150
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_400x400.uasset" 151
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_500x500.uasset" 152
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 153
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 154
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Collapse01.uasset" 155
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Collapse02.uasset" 156
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Explosion02.uasset" 157
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Fire01.uasset" 158
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Fire_Sparks01.uasset" 159
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Light01.uasset" 160
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Light01_Cue.uasset" 161
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Light02.uasset" 162
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Light02_Cue.uasset" 163
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Smoke01.uasset" 164
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Birds01.uasset" 165
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Music01.uasset" 166
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Wind05.uasset" 167
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Wind06.uasset" 168
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Steam01.uasset" 169
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Explosion_Cue.uasset" 170
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Burst_M.uasset" 171
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Burst.uasset" 172
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 173
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 174
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 175
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 176
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 177
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 178
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 179
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 180
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Explosion.uasset" 181
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 182
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 183
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 184
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Bush_D.uasset" 185
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Bush_N.uasset" 186
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Bush.uasset" 187
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Bush.uasset" 188
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Chair_M.uasset" 189
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Chair_N.uasset" 190
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Chair.uasset" 191
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Couch.uasset" 192
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Glass.uasset" 193
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Door_M.uasset" 194
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Door_N.uasset" 195
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Door.uasset" 196
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Door.uasset" 197
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 198
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 199
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 200
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 201
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 202
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_RockMesh_M.uasset" 203
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_RockMesh_N.uasset" 204
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Rock.uasset" 205
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Rock.uasset" 206
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Shelf_M.uasset" 207
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Shelf_N.uasset" 208
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Shelf.uasset" 209
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Shelf.uasset" 210
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Basic_Floor.uasset" 211
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Stairs.uasset" 212
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Cone.uasset" 213
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 214
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Pipe.uasset" 215
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 216
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 217
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Plane.uasset" 218
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Torus.uasset" 219
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Trim.uasset" 220
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 221
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Tube.uasset" 222
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 223
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 224
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 225
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" 226
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" 227
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 228
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 229
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 230
-"../../../Engine/Content/BasicShapes/Cone.uasset" 231
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 232
-"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 233
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 234
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 235
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 236
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 237
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 238
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 239
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 240
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 241
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 242
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 243
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 244
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 245
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 246
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 247
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 248
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 249
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 250
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 251
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 252
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 253
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 254
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 255
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 256
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 257
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 258
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 259
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 260
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 261
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 262
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 263
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 264
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 265
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 266
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 267
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 268
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 269
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 270
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 271
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 272
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 273
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 274
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 275
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 276
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 277
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 278
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 279
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 280
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 281
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 282
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 283
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 284
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 285
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 286
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 287
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 288
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 289
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 290
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 291
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 292
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 293
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 294
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 295
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 296
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 297
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 298
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 299
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 300
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 301
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 302
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 303
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 304
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 305
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 306
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 307
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 308
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 309
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 310
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 311
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 312
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 313
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 314
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 315
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 316
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 317
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 318
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 319
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 320
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 321
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 322
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 323
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 324
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 325
-"../../../Engine/Content/EngineResources/Black.uasset" 326
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 327
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 328
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 329
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 330
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 331
-"../../../Engine/Content/EngineSounds/Master.uasset" 332
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 333
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 334
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 335
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 336
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 337
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 338
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 339
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 340
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 341
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 342
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 343
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 344
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 345
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 346
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 347
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 348
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 349
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 350
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 351
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 352
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 353
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 354
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 355
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 356
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 357
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 358
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 359
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 360
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 361
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 362
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 363
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 364
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 365
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 366
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 367
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 368
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 369
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 370
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 371
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 372
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 373
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 374
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 375
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 376
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 377
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 378
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 379
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 380
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 381
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 382
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 383
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 384
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 385
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 386
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 387
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 388
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 389
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 390
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 391
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 392
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 393
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Maze_BuiltData.uasset" 394
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 395
-"../../../Engine/Content/BasicShapes/Cube.uasset" 396
-"../../../Engine/Content/BasicShapes/Plane.uasset" 397
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/TunnelSegment.uasset" 398
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Maze.umap" 399
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Modes/Default.uasset" 400
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/MitchAnger_BuiltData.uasset" 401
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/MitchAnger.umap" 402
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Water_M.uasset" 403
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Water_N.uasset" 404
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Ghastly.uasset" 405
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Ghastly_2.uasset" 406
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 407
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Anger/AngerSprite.uasset" 408
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Pillar_50x500.uasset" 409
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Anger/Anger_sprite_BP.uasset" 410
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Black.uasset" 411
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Red.uasset" 412
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Yellow.uasset" 413
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Bomb.uasset" 414
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Bomb_Blueprint.uasset" 415
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/CubeDefender/Material.uasset" 416
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderOnlyCube.uasset" 417
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefender_Blueprint.uasset" 418
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderOnlyShield.uasset" 419
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Explosion01.uasset" 420
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/BombExplosion.uasset" 421
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderShield_Blueprint.uasset" 422
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/BBoardMouse.uasset" 423
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/FocusOnActor.uasset" 424
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Guardian/Tasks/LoseFocus.uasset" 425
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/MoveToActor.uasset" 426
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/FindRandomLocation.uasset" 427
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/BTMouse.uasset" 428
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/AICMouse.uasset" 429
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/MWhiteMouse.uasset" 430
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/SMMouse.uasset" 431
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/BPMouse.uasset" 432
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Mouse/MouseSpawner.uasset" 433
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Modes/Debug.uasset" 434
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/anger_cutscene.uasset" 435
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Cinematics/AngerCutscene.uasset" 436
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Anger/Anger_BuiltData.uasset" 437
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Materials/Ghastly_3.uasset" 438
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 439
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 440
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 441
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Steel.uasset" 442
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Water_Lake.uasset" 443
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Cage_Corners.uasset" 444
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Cage_Green.uasset" 445
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Models/Anger_Cage.uasset" 446
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/anger_collect.uasset" 447
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/anger.uasset" 448
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/anger_Cue.uasset" 449
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/AngerCollectText.uasset" 450
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/AngerObjectives.uasset" 451
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Anger/Anger.umap" 452
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/BBoardDesohedron.uasset" 453
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/BTDesohedron.uasset" 454
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/AICDesohedron.uasset" 455
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderOnlyCube.uasset" 456
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderOnlyShield.uasset" 457
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Desohedron/BPDesohedron.uasset" 458
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Boss/Boss_BuiltData.uasset" 459
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Boss/Boss.umap" 460
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Platform_BP.uasset" 461
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Platform_BP_Rotating.uasset" 462
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Platform_BP_Rotating_Random.uasset" 463
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 464
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/Shard_Blueprint.uasset" 465
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Envy/Envy_BuiltData.uasset" 466
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 467
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 468
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 469
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 470
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 471
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 472
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 473
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Blueprints/EnvyUI.uasset" 474
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/EnvySpirit.uasset" 475
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Particles/CollectShard.uasset" 476
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/shard.uasset" 477
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/Wind_Heavy_Fienup_001.uasset" 478
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/Wind_Heavy_Fienup_001_Cue.uasset" 479
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 480
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Envy.uasset" 481
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 482
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Envy/Envy.umap" 483
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Hub/Hub_BuiltData.uasset" 484
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 485
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/Hub/Hub.umap" 486
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/Follower_BBoard.uasset" 487
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/ChasePlayer.uasset" 488
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/FindPlayerLocation.uasset" 489
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/Follower_BTree.uasset" 490
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/AI_Controller.uasset" 491
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Entities/Voider/AI_Character.uasset" 492
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/WidgetBase.uasset" 493
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/Credits.uasset" 494
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/QuitDialog.uasset" 495
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/MainMenu.uasset" 496
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/HUDs/MainHUD.uasset" 497
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Modes/Intro.uasset" 498
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/MainMenu/MainMenu_BuiltData.uasset" 499
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/MainMenu/MainMenu.umap" 500
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/UI/Widgits/ButtonPrompt.uasset" 501
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/BP_Button.uasset" 502
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/TPCExample/TPCExMap_BuiltData.uasset" 503
-"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset" 504
-"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset" 505
-"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset" 506
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Sounds/congrats.uasset" 507
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Geometry/Meshes/CubeMaterial.uasset" 508
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Geometry/Meshes/1M_Cube.uasset" 509
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 510
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Geometry/Meshes/TemplateFloor.uasset" 511
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/RampMaterial.uasset" 512
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" 513
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" 514
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" 515
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 516
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 517
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/Ardent/Levels/TPCExample/TPCExMap.umap" 518
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 519
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 520
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 521
-"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 522
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 523
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 524
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 525
-"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 526
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 527
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 528
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 529
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 530
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 531
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_AssetPlatform.uasset" 532
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 533
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 534
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 535
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 536
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 537
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 538
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 539
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 540
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/Advanced_Lighting.umap" 541
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 542
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 543
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 544
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 545
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 546
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 547
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Copper.uasset" 548
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Statue_M.uasset" 549
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Statue_N.uasset" 550
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 551
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Floor_400x400.uasset" 552
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 553
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Chair.uasset" 554
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Statue.uasset" 555
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Statue.uasset" 556
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_TableRound_M.uasset" 557
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_TableRound_N.uasset" 558
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_TableRound.uasset" 559
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_TableRound.uasset" 560
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/Minimal_Default.umap" 561
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Fire01_Cue.uasset" 562
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 563
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 564
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 565
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 566
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 567
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Fire.uasset" 568
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 569
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Smoke01_Cue.uasset" 570
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Smoke.uasset" 571
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 572
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 573
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Spark_Core.uasset" 574
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Spark.uasset" 575
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Sparks.uasset" 576
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 577
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Steam01_Cue.uasset" 578
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Steam_Lit.uasset" 579
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 580
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Lamp_M.uasset" 581
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Lamp_N.uasset" 582
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Lamp.uasset" 583
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 584
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 585
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 586
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 587
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 588
-"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 589
-"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 590
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 591
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 592
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 593
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 594
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 595
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 596
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 597
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 598
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 599
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 600
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 601
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 602
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 603
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 604
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 605
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 606
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 607
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 608
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 609
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 610
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 611
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 612
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 613
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 614
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Gradinet_01.uasset" 615
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 616
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 617
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 618
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 619
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 620
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 621
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 622
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 623
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 624
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 625
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 626
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 627
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 628
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 629
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 630
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 631
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 632
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 633
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 634
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 635
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 636
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 637
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Ground_Grass.uasset" 638
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 639
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 640
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 641
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 642
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 643
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Ground_Moss.uasset" 644
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 645
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Gold.uasset" 646
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 647
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Metal_Rust.uasset" 648
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 649
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 650
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 651
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 652
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 653
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 654
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Rock_Slate.uasset" 655
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 656
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 657
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 658
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 659
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 660
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 661
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 662
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Tech_Panel.uasset" 663
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Water_Ocean.uasset" 664
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 665
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 666
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 667
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 668
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 669
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 670
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 671
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 672
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Wood_Oak.uasset" 673
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 674
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 675
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Wood_Pine.uasset" 676
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 677
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 678
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 679
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_400x200.uasset" 680
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 681
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Collapse_Cue.uasset" 682
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 683
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 684
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 685
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 686
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/MaterialSphere.uasset" 687
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Frame_M.uasset" 688
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Textures/T_Frame_N.uasset" 689
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/Materials/M_Frame.uasset" 690
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_CornerFrame.uasset" 691
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_DoorFrame.uasset" 692
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_GlassWindow.uasset" 693
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_PillarFrame.uasset" 694
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_PillarFrame300.uasset" 695
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Props/SM_WindowFrame.uasset" 696
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Cube.uasset" 697
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Shapes/Shape_Sphere.uasset" 698
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/StarterContent/Maps/StarterMap.umap" 699
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap1_BuiltData.uasset" 700
-"C:/Users/paullj/Desktop/Ardent/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap1.umap" 701
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 702
-"../../../Engine/Content/Maps/Entry.umap" 703
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/PillarRoomDoorMove.uasset" 0
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/SpawnPlatform1_Blueprint.uasset" 1
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/TPCMaterial.uasset" 2
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Confidence.uasset" 3
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material.uasset" 4
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Confidence_Shield_PhysicsAsset.uasset" 5
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Confidence_Shield_Skeleton.uasset" 6
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Confidence_Shield.uasset" 7
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/WeaponShield.uasset" 8
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/MitchellShield.uasset" 9
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/NewActorComponent.uasset" 10
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Cinematics/RotatingMainSequence.uasset" 11
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Envy.uasset" 12
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Collectables/basic_gem.uasset" 13
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Collectables/basic_gem2.uasset" 14
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/AIPawn.uasset" 15
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/ButlerAI.uasset" 16
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Block.uasset" 17
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/FacialHair_001.uasset" 18
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/ButlerBlock.uasset" 19
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefender_Blueprint.uasset" 20
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/ButlerCube.uasset" 21
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/ButlerBossMitchell.uasset" 22
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/ButlerTree.uasset" 23
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/Material.uasset" 24
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderOnlyCube.uasset" 25
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/Material.uasset" 26
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderOnlyCube.uasset" 27
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderOnlyShield.uasset" 28
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW1Shield_Cube.uasset" 29
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW1Shield_Cube_001.uasset" 30
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube.uasset" 31
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube_001.uasset" 32
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/CubeDefenderW2Shield_Cube_002.uasset" 33
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/AlertShot.uasset" 34
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/GoreLaserShot.uasset" 35
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 36
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/HierarchyMethods.uasset" 37
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserImpact.uasset" 38
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserShotAudio.uasset" 39
+"../../../Engine/Content/EngineMeshes/Humanoid.uasset" 40
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 41
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 42
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 43
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 44
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 45
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonRun.uasset" 46
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 47
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 48
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 49
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 50
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 51
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 52
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 53
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 54
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 55
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 56
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 57
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 58
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 59
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 60
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 61
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 62
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 63
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 64
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 65
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 66
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 67
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 68
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/TPCBase.uasset" 69
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/ArdentGameInstance.uasset" 70
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy.uasset" 71
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns__2__PhysicsAsset.uasset" 72
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns__2__Skeleton.uasset" 73
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns__2_.uasset" 74
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/WeaponHorns.uasset" 75
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Blade_Bevel_001.uasset" 76
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Guard_001.uasset" 77
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Hilt_Cloth_001.uasset" 78
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Hilt_Under_002.uasset" 79
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_001.uasset" 80
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Tang.uasset" 81
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Anger_Katana_2_PhysicsAsset.uasset" 82
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Anger_Katana_2_Skeleton.uasset" 83
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Anger_Katana_2.uasset" 84
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/WeaponSword.uasset" 85
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Euphoria.uasset" 86
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/EuphoriaWings_PhysicsAsset.uasset" 87
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/EuphoriaWings_Skeleton.uasset" 88
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/EuphoriaWings.uasset" 89
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/WeaponWings.uasset" 90
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Powers.uasset" 91
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/TPCMethods.uasset" 92
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/Slash_2.uasset" 93
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/Slash_3.uasset" 94
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/Sword_And_Shield_Slash_-_1_Anim_mixamo_com.uasset" 95
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/aidie.uasset" 96
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/mousedie.uasset" 97
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPAnger.uasset" 98
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/BB_ThirdPerson_Charge.uasset" 99
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/break.uasset" 100
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPEnvy.uasset" 101
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/PowerUp.uasset" 102
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/ForceType.uasset" 103
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Burst_M.uasset" 104
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Burst.uasset" 105
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 106
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 107
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 108
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Particles/Euphoria_Burst.uasset" 109
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPEuphoria.uasset" 110
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/M_BackgroundCard_01.uasset" 111
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Anger.uasset" 112
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Happiness.uasset" 113
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Hyper.uasset" 114
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Void.uasset" 115
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/TraceConditions.uasset" 116
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/TracingTypes.uasset" 117
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/PauseMenu.uasset" 118
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/TPCHusk.uasset" 119
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserMaterial.uasset" 120
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 121
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 122
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 123
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 124
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 125
+"../../../Engine/Content/VREditor/Sounds/UI/Laser_Push.uasset" 126
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserDroplet.uasset" 127
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserProjectile.uasset" 128
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/WakandaForeverShield.uasset" 129
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPConfidence.uasset" 130
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/HealthSystem/HealthSystemWidget.uasset" 131
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/HealthSystem.uasset" 132
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 133
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 134
+"../../../Engine/Content/BasicShapes/Plane.uasset" 135
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 136
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/PlayerHUD_WBP.uasset" 137
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/TPCMitchell.uasset" 138
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Projectile.uasset" 139
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Colors/RedGlow.uasset" 140
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Decorators/BTDecorator_IsComponentActive.uasset" 141
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Decorators/IsComponentActive.uasset" 142
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/FacePlayer.uasset" 143
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/FindPlayer.uasset" 144
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/FindRotationToPlayer.uasset" 145
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/GuardianRotateIdle.uasset" 146
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/LineTraceFromPoint.uasset" 147
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/BB_Guardian.uasset" 148
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/BT_Guardian.uasset" 149
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/AIC_Guardian.uasset" 150
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Colors/White.uasset" 151
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 152
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Basic_Wall.uasset" 153
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 154
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 155
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/BP_Guardian.uasset" 156
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/Scan.uasset" 157
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPPower.uasset" 158
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/CPController.uasset" 159
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/NewBlueprint.uasset" 160
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/NewMacroLibrary.uasset" 161
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Components/SuperComponent.uasset" 162
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/MoveToActor.uasset" 163
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/OrientToGround.uasset" 164
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/pumpkinHulk_diffuse.uasset" 165
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/pumpkinHulk_normal.uasset" 166
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/PumpkinHulk_Material.uasset" 167
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw_PhysicsAsset.uasset" 168
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw_Skeleton.uasset" 169
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Test/pumpkinhulk_l_shaw.uasset" 170
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/Follower_BBoard.uasset" 171
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/ChasePlayer.uasset" 172
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/FindPlayerLocation.uasset" 173
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/FindRandomLocation.uasset" 174
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/Follower_BTree.uasset" 175
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/AI_Controller.uasset" 176
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/AI_Character.uasset" 177
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/AIAttackService.uasset" 178
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/GI_Test.uasset" 179
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/NewDialogueVoice.uasset" 180
+"../../../Engine/Content/Tutorial/Audio/Zak.uasset" 181
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/NewDialogueWave.uasset" 182
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Voider/NewSoundClass.uasset" 183
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/BossMovement.uasset" 184
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/VoidFloorMaterial.uasset" 185
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/AIBehaviors/Tasks/AgroCheck.uasset" 186
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/Functions/TraceInfo.uasset" 187
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/Functions/Something.uasset" 188
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Libraries/Macros/Utilities.uasset" 189
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/MI_White.uasset" 190
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_MacroVariation.uasset" 191
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 192
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 193
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 194
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/M_Rock_Sandstone.uasset" 195
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/DesohedronLaserMaterialInstance.uasset" 196
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Instances/MI_Envy_2.uasset" 197
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns_PhysicsAsset.uasset" 198
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns_Skeleton.uasset" 199
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Envy_Horns.uasset" 200
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Pink_Blush.uasset" 201
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_001.uasset" 202
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_002.uasset" 203
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_003.uasset" 204
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_004.uasset" 205
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_005.uasset" 206
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron_Cube_006.uasset" 207
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Modes/BBCustomGameMode1.uasset" 208
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/HuskBase.uasset" 209
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/HUDs/PlayerHUD_BP.uasset" 210
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Modes/Level1Mode.uasset" 211
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/BBoardDesohedron.uasset" 212
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/SpawnProjectile.uasset" 213
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/FocusOnActor.uasset" 214
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/BTDesohedron.uasset" 215
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/DesohedronEyeMaterial.uasset" 216
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/DesohedronLaserProjectil.uasset" 217
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/AICDesohedron.uasset" 218
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_008.uasset" 219
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_009.uasset" 220
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_010.uasset" 221
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_011.uasset" 222
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Desohedron.uasset" 223
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/BPDesohedron.uasset" 224
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/DesohedronPlatingMaterial.uasset" 225
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/PlatingInstance.uasset" 226
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/HealthSystem/DesohedronInfo.uasset" 227
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Desohedron/BPDesohedronMM.uasset" 228
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/DesohedronShaking.uasset" 229
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Platform1Down.uasset" 230
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Platform1Move.uasset" 231
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Platform2Down.uasset" 232
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Platform2Move.uasset" 233
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Platform3Move.uasset" 234
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sequences/Stage3.uasset" 235
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/015_Foley_Footsteps_Asphalt_Boot_Walk_Fast_Run_Jog_Close.uasset" 236
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/anger_collect.uasset" 237
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/Bell_Sound_Ring-SoundBible_com-181681426.uasset" 238
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/Wind_Ext_Whoosh_Whistle_Howl_Ringing.uasset" 239
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/Wind_Ext_Whoosh_Whistle_Howl_Ringing_Cue.uasset" 240
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds_and_Music/yup.uasset" 241
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/HUDs/GameHUD.uasset" 242
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/AngerCollectText.uasset" 243
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Husk/Character/TPCFinal.uasset" 244
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Modes/Default.uasset" 245
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Cinematics/Sequences/RecordedSequence/RecordedSequence.uasset" 246
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 247
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_400x400.uasset" 248
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_500x500.uasset" 249
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 250
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 251
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Collapse01.uasset" 252
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Collapse02.uasset" 253
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Explosion02.uasset" 254
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Fire01.uasset" 255
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Fire_Sparks01.uasset" 256
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Light01.uasset" 257
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Light01_Cue.uasset" 258
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Light02.uasset" 259
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Light02_Cue.uasset" 260
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Smoke01.uasset" 261
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Birds01.uasset" 262
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Music01.uasset" 263
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Wind05.uasset" 264
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Wind06.uasset" 265
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Steam01.uasset" 266
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Explosion_Cue.uasset" 267
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 268
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 269
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 270
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 271
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 272
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Explosion.uasset" 273
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 274
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 275
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 276
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Envy.uasset" 277
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Bush_D.uasset" 278
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Bush_N.uasset" 279
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Bush.uasset" 280
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Bush.uasset" 281
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Chair_M.uasset" 282
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Chair_N.uasset" 283
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Chair.uasset" 284
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Couch.uasset" 285
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Glass.uasset" 286
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Door_M.uasset" 287
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Door_N.uasset" 288
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Door.uasset" 289
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Door.uasset" 290
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 291
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 292
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 293
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 294
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 295
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_RockMesh_M.uasset" 296
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_RockMesh_N.uasset" 297
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Rock.uasset" 298
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Rock.uasset" 299
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Shelf_M.uasset" 300
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Shelf_N.uasset" 301
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Shelf.uasset" 302
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Shelf.uasset" 303
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Basic_Floor.uasset" 304
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Stairs.uasset" 305
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Cone.uasset" 306
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 307
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Pipe.uasset" 308
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 309
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Plane.uasset" 310
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Torus.uasset" 311
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Trim.uasset" 312
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 313
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 314
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 315
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 316
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" 317
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" 318
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 319
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 320
+"../../../Engine/Content/BasicShapes/Cone.uasset" 321
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 322
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 323
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 324
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 325
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 326
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 327
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 328
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 329
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 330
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 331
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 332
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 333
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 334
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 335
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 336
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 337
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 338
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 339
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 340
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 341
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 342
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 343
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 344
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 345
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 346
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 347
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 348
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 349
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 350
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 351
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 352
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 353
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 354
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 355
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 356
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 357
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 358
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 359
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 360
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 361
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 362
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 363
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 364
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 365
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 366
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 367
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 368
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 369
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 370
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 371
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 372
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 373
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 374
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 375
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 376
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 377
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 378
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 379
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 380
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 381
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 382
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 383
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 384
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 385
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 386
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 387
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 388
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 389
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 390
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 391
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 392
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 393
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 394
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 395
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 396
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 397
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 398
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 399
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 400
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 401
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 402
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 403
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 404
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 405
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 406
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 407
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 408
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 409
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 410
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 411
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 412
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 413
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 414
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 415
+"../../../Engine/Content/EngineResources/Black.uasset" 416
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 417
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 418
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 419
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 420
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 421
+"../../../Engine/Content/EngineSounds/Master.uasset" 422
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 423
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 424
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 425
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 426
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 427
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 428
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 429
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 430
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 431
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 432
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 433
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 434
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 435
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 436
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 437
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 438
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 439
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 440
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 441
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 442
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 443
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 444
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 445
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 446
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 447
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 448
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 449
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 450
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 451
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 452
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 453
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 454
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 455
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 456
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 457
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 458
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 459
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 460
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 461
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 462
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 463
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 464
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 465
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 466
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 467
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 468
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 469
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 470
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 471
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 472
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 473
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 474
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 475
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 476
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 477
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 478
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 479
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 480
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 481
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 482
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 483
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 484
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Maze_BuiltData.uasset" 485
+"../../../Engine/Content/BasicShapes/Cube.uasset" 486
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/TunnelSegment.uasset" 487
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Maze.umap" 488
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchAnger_BuiltData.uasset" 489
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchAnger.umap" 490
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Water_M.uasset" 491
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Water_N.uasset" 492
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Ghastly.uasset" 493
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Ghastly_2.uasset" 494
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Anger/AngerSprite.uasset" 495
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Pillar_50x500.uasset" 496
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Anger/Anger_sprite_BP.uasset" 497
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Black.uasset" 498
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Red.uasset" 499
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Yellow.uasset" 500
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Bomb.uasset" 501
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Bomb_Blueprint.uasset" 502
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderOnlyShield.uasset" 503
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Explosion01.uasset" 504
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/BombExplosion.uasset" 505
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/CubeDefender/CubeDefenderShield_Blueprint.uasset" 506
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/BBoardMouse.uasset" 507
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/LoseFocus.uasset" 508
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/FindFloorPosition.uasset" 509
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/MoveToLocation.uasset" 510
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/BTMouse.uasset" 511
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/AICMouse.uasset" 512
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/MWhiteMouse.uasset" 513
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/SMMouse.uasset" 514
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/BPMouse.uasset" 515
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Mouse/MouseSpawner.uasset" 516
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Modes/Debug.uasset" 517
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/anger_cutscene.uasset" 518
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Cinematics/AngerCutscene.uasset" 519
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Anger/Anger_BuiltData.uasset" 520
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Ghastly_3.uasset" 521
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 522
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 523
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 524
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Steel.uasset" 525
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Water_Lake.uasset" 526
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Cage_Corners.uasset" 527
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Cage_Green.uasset" 528
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Anger_Cage.uasset" 529
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/anger.uasset" 530
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/anger_Cue.uasset" 531
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/AngerObjectives.uasset" 532
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Anger/Anger.umap" 533
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/Boss_BuiltData.uasset" 534
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/Boss.umap" 535
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/BrandyBossLevel_BuiltData.uasset" 536
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/desohedronscall.uasset" 537
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/desohedronscall_Cue.uasset" 538
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 539
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 540
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 541
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 542
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 543
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Fire.uasset" 544
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Boss/BrandyBossLevel.umap" 545
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserGuardBB.uasset" 546
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Services/BTService_FindPlayerLocation.uasset" 547
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Services/BTService_UpdateComponentLocation.uasset" 548
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/SpawnActorAtLocation.uasset" 549
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/ActivateComponent.uasset" 550
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/DeactivateComponent.uasset" 551
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/Tasks/Stare.uasset" 552
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserGuardianBTree.uasset" 553
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/AIC_LaserGuard.uasset" 554
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/Guardian/LaserGuard.uasset" 555
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/button_press.uasset" 556
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/ButtonPrompt.uasset" 557
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/BP_Button.uasset" 558
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/ConfidenceSprite/Confidence.uasset" 559
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/MaterialSphere.uasset" 560
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 561
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/ConfidenceSprite/ConfidenceSprite.uasset" 562
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/EuphoriaSprite/Euphoria.uasset" 563
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Tube.uasset" 564
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/EuphoriaSprite/EuphoriaSprite.uasset" 565
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Confidence/Confidence_BuiltData.uasset" 566
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Materials/Ghastly_4.uasset" 567
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Water_Ocean.uasset" 568
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/FinalHallway13__1_.uasset" 569
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/confidence.uasset" 570
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/confidence_Cue.uasset" 571
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/puzzle_correct.uasset" 572
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/EvilGuy.uasset" 573
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_400x300.uasset" 574
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Confidence/Confidence.umap" 575
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/EnvySprite/EnvySprite.uasset" 576
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Entities/EnvySprite/Envy_Sprite.uasset" 577
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Ending/Ending_BuiltData.uasset" 578
+"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset" 579
+"../../../Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset" 580
+"../../../Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset" 581
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Ending/EndingText.uasset" 582
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_002.uasset" 583
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Material_003.uasset" 584
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Models/Kawaii_Desohedron__2_.uasset" 585
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Ending/Ending.umap" 586
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Platform_BP.uasset" 587
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Platform_BP_Rotating.uasset" 588
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Platform_BP_Rotating_Random.uasset" 589
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 590
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/Shard_Blueprint.uasset" 591
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Envy/Envy_BuiltData.uasset" 592
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 593
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 594
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 595
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 596
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Blueprints/EnvyUI.uasset" 597
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/EnvySpirit.uasset" 598
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Particles/CollectShard.uasset" 599
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/shard.uasset" 600
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/Wind_Heavy_Fienup_001.uasset" 601
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/Wind_Heavy_Fienup_001_Cue.uasset" 602
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 603
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 604
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Envy/Envy.umap" 605
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Hub/Hub_BuiltData.uasset" 606
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 607
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/Hub/Hub.umap" 608
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/WidgetBase.uasset" 609
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/Credits.uasset" 610
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/QuitDialog.uasset" 611
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/Widgits/MainMenu.uasset" 612
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/UI/HUDs/MainHUD.uasset" 613
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Modes/Intro.uasset" 614
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MainMenu/MainMenu_BuiltData.uasset" 615
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MainMenu/MainMenu.umap" 616
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MiceTest_BuiltData.uasset" 617
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MiceTest.umap" 618
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellAnger_BuiltData.uasset" 619
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellAnger.umap" 620
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellBoss_BuiltData.uasset" 621
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellBoss.umap" 622
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellLevel_BuiltData.uasset" 623
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Sounds/congrats.uasset" 624
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Geometry/Meshes/CubeMaterial.uasset" 625
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Geometry/Meshes/1M_Cube.uasset" 626
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 627
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Geometry/Meshes/TemplateFloor.uasset" 628
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/RampMaterial.uasset" 629
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" 630
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" 631
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" 632
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 633
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 634
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/MitchellMaps/MitchellLevel.umap" 635
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/TPCExample/TPCExMap_BuiltData.uasset" 636
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/Ardent/Levels/TPCExample/TPCExMap.umap" 637
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 638
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 639
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 640
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 641
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 642
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 643
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 644
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 645
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 646
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 647
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 648
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 649
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 650
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_AssetPlatform.uasset" 651
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 652
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 653
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 654
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 655
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 656
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 657
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 658
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 659
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/Advanced_Lighting.umap" 660
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 661
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 662
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 663
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 664
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 665
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 666
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Copper.uasset" 667
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Statue_M.uasset" 668
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Statue_N.uasset" 669
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 670
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Floor_400x400.uasset" 671
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 672
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Chair.uasset" 673
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Statue.uasset" 674
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Statue.uasset" 675
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_TableRound_M.uasset" 676
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_TableRound_N.uasset" 677
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_TableRound.uasset" 678
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_TableRound.uasset" 679
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/Minimal_Default.umap" 680
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Fire01_Cue.uasset" 681
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 682
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Smoke01_Cue.uasset" 683
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Smoke.uasset" 684
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 685
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 686
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Spark_Core.uasset" 687
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Spark.uasset" 688
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Sparks.uasset" 689
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 690
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Steam01_Cue.uasset" 691
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Steam_Lit.uasset" 692
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 693
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Lamp_M.uasset" 694
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Lamp_N.uasset" 695
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Lamp.uasset" 696
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 697
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 698
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 699
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 700
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 701
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 702
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 703
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 704
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 705
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 706
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 707
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 708
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 709
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 710
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 711
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 712
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 713
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 714
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 715
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 716
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 717
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 718
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 719
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 720
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 721
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 722
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 723
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 724
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 725
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 726
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 727
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Gradinet_01.uasset" 728
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 729
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 730
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 731
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 732
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 733
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 734
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 735
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 736
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 737
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 738
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 739
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 740
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 741
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 742
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 743
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 744
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 745
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 746
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 747
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 748
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 749
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 750
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Ground_Grass.uasset" 751
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 752
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 753
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 754
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 755
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 756
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Ground_Moss.uasset" 757
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 758
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Gold.uasset" 759
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 760
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Metal_Rust.uasset" 761
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 762
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 763
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 764
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 765
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 766
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 767
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Rock_Slate.uasset" 768
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 769
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 770
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 771
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 772
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 773
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 774
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 775
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 776
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 777
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 778
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Tech_Panel.uasset" 779
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 780
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 781
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 782
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 783
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 784
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 785
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 786
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 787
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Wood_Oak.uasset" 788
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 789
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 790
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Wood_Pine.uasset" 791
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 792
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 793
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 794
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_400x200.uasset" 795
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 796
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Collapse_Cue.uasset" 797
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 798
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 799
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 800
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 801
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Frame_M.uasset" 802
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Textures/T_Frame_N.uasset" 803
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/Materials/M_Frame.uasset" 804
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_CornerFrame.uasset" 805
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_DoorFrame.uasset" 806
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_GlassWindow.uasset" 807
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_PillarFrame.uasset" 808
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_PillarFrame300.uasset" 809
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Props/SM_WindowFrame.uasset" 810
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Cube.uasset" 811
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Shapes/Shape_Sphere.uasset" 812
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/StarterContent/Maps/StarterMap.umap" 813
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap1_BuiltData.uasset" 814
+"C:/Users/myersmk/Desktop/Unreal Projects/Ardent/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap1.umap" 815
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 816
+"../../../Engine/Content/Maps/Entry.umap" 817
